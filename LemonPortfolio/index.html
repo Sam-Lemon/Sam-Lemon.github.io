@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Notable&family=Handjet:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2c38b20589.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Portfolio -- Sam Lemon</title>
+  </head>
+  <body class="space-grotesk">
+    <div class="wrapper">
+      <section class="biography">
+        <div class="bio">
+          <h1 class="glow-text upper notable-regular">Sam Lemon</h1>
+          <div class="underline"></div>
+          <h3 class="glow-text handjet-regular">Web Developer</h3>
+
+          <div class="socials">
+            <a
+              href="https://www.linkedin.com/in/samlemon/"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com/Sam-Lemon"
+              target="_blank"
+              aria-label="GitHub Profile"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <div class="about-me">
+            <p>
+              As a former live entertainment pro turned web developer, I'm
+              merging the magic of the stage with the thrill of code to craft
+              immersive, dynamic web experiences that dazzle and inspire.
+            </p>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img
+            src="./images/me-croppedsquare-modified.jpg"
+            alt="Sam's head shot"
+          />
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="contact-me">
+          <div class="contact-border">
+            <h4 class="glow-text notable-regular">Contact Me</h4>
+            <form action="" method="" class="contact-form">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" required />
+
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+            <div id="status"></div>
+          </div>
+        </section>
+
+        <section class="project-list">
+          <h2 class="glow-text notable-regular">Projects</h2>
+          <div class="indv-project">
+            <div class="outer-border">
+              <div class="project-container">
+                <h4 class="handjet-regular">Cacti Crafted Website</h4>
+                <div class="icons">
+                  <p>
+                    <i class="fa-brands fa-html5" aria-label="HTML5"></i>
+                    <i class="fa-brands fa-css3" aria-label="CSS3"></i>
+                    <i class="fa-brands fa-js" aria-label="JavaScript"></i>
+                    <i class="fa-brands fa-react" aria-label="React"></i>
+                  </p>
+                </div>
+                <div class="content">
+                  <div>
+                    <div class="tech-stack">
+                      <h5 class="handjet-regular">Tech Stack</h5>
+                      <ul>
+                        <li>- React Router</li>
+                        <li>- React Bootstrap</li>
+                        <li>- RESTful API</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 class="handjet-regular">Components</h5>
+                      <ul>
+                        <li>- Home Page</li>
+                        <li>- Login Page</li>
+                        <li>- Cart</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <figure>
+                    <img
+                      class="project-img"
+                      src="./images/CactiCraftedWebsiteFrontPage.png"
+                      alt="CactiCrafted website front page"
+                    />
+                    <figcaption>
+                      <a
+                        href="https://github.com/Sam-Lemon/CactiCrafted-Website"
+                        aria-label="GitHub Repository for Cacti Crafted Website"
+                        >GitHub Repository</a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="indv-project">
+            <div class="outer-border">
+              <div class="project-container">
+                <h4 class="handjet-regular">Tic-Tac-UFO</h4>
+                <div class="icons">
+                  <p>
+                    <i class="fa-brands fa-html5" aria-label="HTML5"></i>
+                    <i class="fa-brands fa-css3" aria-label="CSS3"></i>
+                    <i class="fa-brands fa-js" aria-label="JavaScript"></i>
+                  </p>
+                </div>
+                <div class="content">
+                  <div>
+                    <div>
+                      <h5 class="handjet-regular">Tech Stack</h5>
+                      <ul>
+                        <li>- DOM Manipulation</li>
+                        <li>- Event Handling</li>
+                        <li>- Timers</li>
+                        <li>- Minimax Algorithm</li>
+                        <li>- Heuristic Evaluation</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 class="handjet-regular">Project Components</h5>
+                      <ul>
+                        <li>- Change player names</li>
+                        <li>- PvP Mode</li>
+                        <li>- PvC - Easy Mode</li>
+                        <li>- PvC - Hard Mode</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <figure>
+                    <img
+                      class="project-img"
+                      src="./images/GamePlayTicTacUFO.png"
+                      alt="Game play for Tic-Tac-UFO game"
+                    />
+                    <figcaption>
+                      <a
+                        href="https://github.com/Sam-Lemon/Tic-Tac-Toe"
+                        aria-label="GitHub Repository for Tic-Tac-Toe"
+                        >GitHub Repository</a
+                      >
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <script
+        type="text/javascript"
+        src="https://cdn.emailjs.com/dist/email.min.js"
+      ></script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("YOUR_USER_ID");
+        })();
+      </script>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
